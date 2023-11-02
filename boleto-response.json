@@ -1,0 +1,11 @@
+{
+    "status": 403,
+    "pdf": null,
+    "message": [
+        {
+            "code": "ACCESS_DENIED",
+            "description": "whitelist access required. Contact PagSeguro"
+        }
+    ],
+    "error": "Falha ao emitir pedido junto ao PagSeguro"
+}
