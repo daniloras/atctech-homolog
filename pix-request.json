@@ -1,0 +1,39 @@
+{
+  "reference_id": "atctech-1-2",
+  "customer": {
+    "name": "Cíntia Rodrigues",
+    "email": "contato@atctech.com.br",
+    "tax_id": "31701286807",
+    "phones": []
+  },
+  "items": [
+    {
+      "reference_id": "atctech-1-2",
+      "name": "Escritório - Romão - Plano Anual",
+      "quantity": 1,
+      "unit_amount": 9990
+    }
+  ],
+  "shipping": {
+    "address": {
+      "country": "BRA",
+      "region": "wqomp",
+      "region_code": "SP",
+      "city": "wqomp",
+      "postal_code": "09092223",
+      "street": "rqpjreqopji2",
+      "number": "awqoiopqm",
+      "locality": "mqiom"
+    }
+  },
+  "notification_urls": [
+    "https://atctech.com.br/pagseguro-notifications"
+  ],
+  "qr_codes": [
+    {
+      "amount": {
+        "value": 9990
+      }
+    }
+  ]
+}
