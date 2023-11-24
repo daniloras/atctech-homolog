@@ -2,7 +2,7 @@
   "reference_id": "atctech-1-2",
   "customer": {
     "name": "Cíntia Rodrigues",
-    "email": "contato@atctech.com.br",
+    "email": "v09583091644705564494@sandbox.pagseguro.com.br",
     "tax_id": "31701286807",
     "phones": []
   },
@@ -39,10 +39,10 @@
       },
       "payment_method": {
         "type": "CREDIT_CARD",
-        "installments": 2,
+        "installments": 1,
         "capture": true,
         "card": {
-          "encrypted": "aDnRIqYZ/KpjV7QqV3WNlJuj6WQwnfpg/tjh5HsrcBK3MDAl0UVXj7cC4/hFS/UYhwHrR4m7kKfsaLvceWL+FrKxgDFQfKvXATupi8suWGEOy+b23oj6t1yhO4che+TsGrPvblPbkeuc9OR98nnCPa2xtHqVfX0U0eJjAaD3QTS6P4wzXJ2k0dTpwi3mJ7y2f6tEGnDPMZVFn6aESAPV5aFmg2ZAwuTd+7kw6Ag7dc1NmHAd0T48xw9kWNf3aTW2E0evzo0DhlcSOrKmp5SDHyU4WoZ/RTNd328s5xGcDihkKRrmII1oU7WiauleBR5ja6Q3irjykRyDoF4jdbFh8Q==",
+          "encrypted": "IwwJxzLOJmqOju+rCfujOehuGz9DN9QQDrun1FaZnf5i2sfzCw7MzMb0+uhoSpfXDG6ocfSHcPo8kRWiT0LMQn7MNjTRtoRCSd5s6oL7RdNWHQSotzeIQ0jPBPRJdNyNuMSD305xwaPziN/3NBlwDJ1VbrKj2ziP/bgGkmyCYurRfN6vEcrc8LBZNhtPaoa2YuddzOeyTLwQB7LYEQSyUMLeFzjyJwX2P4GZSVsNtwdwqjJSyk9yHs0wgUicDt52usCehfeHmi6SsLKB8iaZkV3LV68NKGuwOWD7p8nxou2p3iY4pviHTunJk0Nm43BMUqz7pvZLUE9SWxePRL5kuA==",
           "security_code": "123",
           "holder": {
             "name": "JOAQUIM TAVORA"
