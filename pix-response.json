@@ -1,11 +1,6 @@
 {
-    "status": 403,
+    "status": 201,
     "pdf": null,
-    "message": [
-        {
-            "code": "ACCESS_DENIED",
-            "description": "whitelist access required. Contact PagSeguro"
-        }
-    ],
-    "error": "Falha ao emitir pedido junto ao PagSeguro"
+    "qrCode": "00020101021226850014br.gov.bcb.pix2563api-h.pagseguro.com/pix/v2/EEEEADAD-173C-4151-8B27-FC4AD321D65327600016BR.COM.PAGSEGURO0136EEEEADAD-173C-4151-8B27-FC4AD321D653520489995303986540599.905802BR5922RSP SERVICOS ADMINISTR6009Sao Paulo62070503***6304F513",
+    "qrCodeImg": "https://sandbox.api.pagseguro.com/qrcode/QRCO_EEEEADAD-173C-4151-8B27-FC4AD321D653/png"
 }
