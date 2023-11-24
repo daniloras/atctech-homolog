@@ -1,11 +1,5 @@
 {
-    "status": 403,
-    "pdf": null,
-    "message": [
-        {
-            "code": "ACCESS_DENIED",
-            "description": "whitelist access required. Contact PagSeguro"
-        }
-    ],
-    "error": "Falha ao emitir pedido junto ao PagSeguro"
+    "status": 201,
+    "statusCredit": "WAITING",
+    "pdf": "https://boleto.sandbox.pagseguro.com.br/3876e67a-6d0a-45a0-ac71-0271e9de13b0.pdf"
 }
