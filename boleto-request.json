@@ -2,7 +2,7 @@
   "reference_id": "atctech-1-2",
   "customer": {
     "name": "Cíntia Rodrigues",
-    "email": "contato@atctech.com.br",
+    "email": "v09583091644705564494@sandbox.pagseguro.com.br",
     "tax_id": "31701286807",
     "phones": []
   },
@@ -40,7 +40,7 @@
       "payment_method": {
         "type": "BOLETO",
         "boleto": {
-          "due_date": "2023-11-09",
+          "due_date": "2023-12-01",
           "instruction_lines": {
             "line_1": "Pagamento processado Produto utilização PicNoLie - Extensão do google",
             "line_2": "Via PagSeguro"
