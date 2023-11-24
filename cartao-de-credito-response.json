@@ -1,11 +1,5 @@
 {
-  "status": 403,
-  "pdf": null,
-  "message": [
-    {
-      "code": "ACCESS_DENIED",
-      "description": "whitelist access required. Contact PagSeguro"
-    }
-  ],
-  "error": "Falha ao emitir pedido junto ao PagSeguro"
+    "status": 201,
+    "statusCredit": "PAID",
+    "pdf": "https://sandbox.api.pagseguro.com/charges/CHAR_EBBB3946-2C0B-4C09-B12B-54A9798C1346"
 }
