@@ -178,22 +178,26 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
 
 ## Forma de Pagamento: PIX Qr Code
 
-<img width="573" alt="Captura de Tela 2024-03-25 às 01 07 06" src="https://github.com/daniloras/atctech-homolog/assets/25010021/bd0733da-25c6-44e3-b7df-9e8d9eea6357">
+<img width="335" alt="Captura de Tela 2024-04-05 às 07 59 45" src="https://github.com/daniloras/atctech-homolog/assets/25010021/cff4005a-66db-46a6-9810-2a92a96e2904">
+
+## Forma de Pagamento: PIX Qr Code - Visualizando QR Code
+
+<img width="320" alt="Captura de Tela 2024-04-05 às 08 02 20" src="https://github.com/daniloras/atctech-homolog/assets/25010021/97ebb22d-8c09-4570-8721-7e857f045d11">
 
 ### Request / PIX Qr Code
 
 ```json
 {
-  "reference_id": "atctech-1-2",
+  "reference_id": "atctech-10-2",
   "customer": {
-    "name": "Cíntia Rodrigues",
-    "email": "v09583091644705564494@sandbox.pagseguro.com.br",
-    "tax_id": "31701286807",
+    "name": "Danilo Ramon",
+    "email": "contato@d2f.dev",
+    "tax_id": "47479020074",
     "phones": []
   },
   "items": [
     {
-      "reference_id": "atctech-1-2",
+      "reference_id": "atctech-10-2",
       "name": "Escritório - Romão - Plano Anual",
       "quantity": 1,
       "unit_amount": 9990
@@ -202,13 +206,13 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
   "shipping": {
     "address": {
       "country": "BRA",
-      "region": "wqomp",
+      "region": "safmkl",
       "region_code": "SP",
-      "city": "wqomp",
-      "postal_code": "09092223",
-      "street": "rqpjreqopji2",
-      "number": "awqoiopqm",
-      "locality": "mqiom"
+      "city": "safmkl",
+      "postal_code": "13102910",
+      "street": "fq090q9q",
+      "number": "asmklm",
+      "locality": "aslmf"
     }
   },
   "notification_urls": [
@@ -227,9 +231,9 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
 
 ```json
 {
-    "status": 201,
-    "pdf": null,
-    "qrCode": "00020101021226850014br.gov.bcb.pix2563api-h.pagseguro.com/pix/v2/EEEEADAD-173C-4151-8B27-FC4AD321D65327600016BR.COM.PAGSEGURO0136EEEEADAD-173C-4151-8B27-FC4AD321D653520489995303986540599.905802BR5922RSP SERVICOS ADMINISTR6009Sao Paulo62070503***6304F513",
-    "qrCodeImg": "https://sandbox.api.pagseguro.com/qrcode/QRCO_EEEEADAD-173C-4151-8B27-FC4AD321D653/png"
+  "status": 201,
+  "pdf": null,
+  "qrCode": "00020101021226600016BR.COM.PAGSEGURO0136A33B0FE0-A1F6-4EE4-83C0-640E2DA4FAF1520473925303986540599.905802BR5925RSP SERVICOS ADMINISTRATI6009Sao Paulo63044870",
+  "qrCodeImg": "https://api.pagseguro.com/qrcode/QRCO_A33B0FE0-A1F6-4EE4-83C0-640E2DA4FAF1/png"
 }
 ```
