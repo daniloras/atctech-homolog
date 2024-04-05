@@ -86,26 +86,28 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
 
 ## Forma de Pagamento: Boleto bancário - Visualização usuário
 
-<img width="510" alt="Captura de Tela 2024-03-25 às 01 06 00" src="https://github.com/daniloras/atctech-homolog/assets/25010021/d13c1db8-3df0-45e3-beff-ffa45347ce85">
+<img width="317" alt="Captura de Tela 2024-04-05 às 07 54 55" src="https://github.com/daniloras/atctech-homolog/assets/25010021/d7a5d8b4-a8af-4c7c-90a9-45ea0423063d">
+
 
 ## Forma de Pagamento: Boleto bancário - Visualização PDF
 
-<img width="517" alt="Captura de Tela 2024-03-25 às 01 00 20" src="https://github.com/daniloras/atctech-homolog/assets/25010021/1cf099b3-b252-45ac-87ab-1359df9ee58e">
+<img width="419" alt="Captura de Tela 2024-04-05 às 07 57 44" src="https://github.com/daniloras/atctech-homolog/assets/25010021/d9c0a34b-b9a4-4d35-90ae-7307f2ac1832">
+
 
 ### Request / Boleto bancário
 
 ```json
 {
-  "reference_id": "atctech-1-2",
+  "reference_id": "atctech-10-2",
   "customer": {
-    "name": "Cíntia Rodrigues",
-    "email": "v09583091644705564494@sandbox.pagseguro.com.br",
-    "tax_id": "31701286807",
+    "name": "Danilo Ramon",
+    "email": "contato@d2f.dev",
+    "tax_id": "47479020074",
     "phones": []
   },
   "items": [
     {
-      "reference_id": "atctech-1-2",
+      "reference_id": "atctech-10-2",
       "name": "Escritório - Romão - Plano Anual",
       "quantity": 1,
       "unit_amount": 9990
@@ -114,13 +116,13 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
   "shipping": {
     "address": {
       "country": "BRA",
-      "region": "wqomp",
+      "region": "safmkl",
       "region_code": "SP",
-      "city": "wqomp",
-      "postal_code": "09092223",
-      "street": "rqpjreqopji2",
-      "number": "awqoiopqm",
-      "locality": "mqiom"
+      "city": "safmkl",
+      "postal_code": "13102910",
+      "street": "fq090q9q",
+      "number": "asmklm",
+      "locality": "aslmf"
     }
   },
   "notification_urls": [
@@ -128,7 +130,7 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
   ],
   "charges": [
     {
-      "reference_id": "atctech-1-2",
+      "reference_id": "atctech-10-2",
       "description": "Produto utilização PicNoLie - Extensão do google",
       "amount": {
         "value": 9990,
@@ -137,24 +139,24 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
       "payment_method": {
         "type": "BOLETO",
         "boleto": {
-          "due_date": "2023-12-01",
+          "due_date": "2024-04-12",
           "instruction_lines": {
             "line_1": "Pagamento processado Produto utilização PicNoLie - Extensão do google",
             "line_2": "Via PagSeguro"
           },
           "holder": {
-            "name": "Cíntia Rodrigues",
-            "tax_id": "31701286807",
-            "email": "contato@atctech.com.br",
+            "name": "Danilo Ramon",
+            "tax_id": "47479020074",
+            "email": "contato@d2f.dev",
             "address": {
               "country": "BRA",
-              "region": "wqomp",
+              "region": "safmkl",
               "region_code": "SP",
-              "city": "wqomp",
-              "postal_code": "09092223",
-              "street": "rqpjreqopji2",
-              "number": "awqoiopqm",
-              "locality": "mqiom"
+              "city": "safmkl",
+              "postal_code": "13102910",
+              "street": "fq090q9q",
+              "number": "asmklm",
+              "locality": "aslmf"
             }
           }
         }
@@ -168,9 +170,9 @@ LINK: https://atctech-checkout-git-feat-billet-daniloras-projects.vercel.app/?pa
 
 ```json
 {
-    "status": 201,
-    "statusCredit": "WAITING",
-    "pdf": "https://boleto.sandbox.pagseguro.com.br/3876e67a-6d0a-45a0-ac71-0271e9de13b0.pdf"
+  "status": 201,
+  "statusCredit": "WAITING",
+  "pdf": "https://boleto.pagseguro.com.br/46b85ed3-f3a3-4160-8ea1-4f72d5184b6e.pdf"
 }
 ```
 
